@@ -17,7 +17,7 @@
         "As training dataset we have used a collection of images from the [Spanish Royal Botanical Garden](http://www.rjb.csic.es)",
         "which consists of around 28K images from 743 species and 493 genera.\n",
 
-        "<img class='fit', src='https://raw.githubusercontent.com/deephdc/DEEP-OC-seeds-classification-tf/master/images/seeds.png'/>\n",
+        "<img class='fit', src='https://raw.githubusercontent.com/ai4oshub/seeds-classification/master/images/seeds.png'/>\n",
 
         "This service is based in the [Image Classification with Tensorflow](./deep-oc-image-classification-tensorflow.html) model.\n",
 
@@ -33,13 +33,13 @@
     "dataset_url": "http://www.rjb.csic.es/jardinbotanico/jardin/",
     "cite_url": "http://digital.csic.es/handle/10261/194549",
     "sources": {
-		"dockerfile_repo": "https://github.com/deephdc/DEEP-OC-seeds-classification-tf",
-		"docker_registry_repo": "deephdc/deep-oc-seeds-classification-tf",
+		"dockerfile_repo": "https://github.com/ai4os-hub/seeds-classification",
+		"docker_registry_repo": "ai4oshub/seeds-classification",
 		"code": "https://github.com/deephdc/image-classification-tf"
 	},
     "continuous_integration": {
-        "build_status_badge": "https://jenkins.indigo-datacloud.eu/buildStatus/icon?job=Pipeline-as-code/DEEP-OC-org/DEEP-OC-seeds-classification-tf/master",
-        "build_status_url": "https://jenkins.indigo-datacloud.eu/job/Pipeline-as-code/job/DEEP-OC-org/job/DEEP-OC-seeds-classification-tf/job/master"
+        "build_status_badge": "https://jenkins.services.ai4os.eu/buildStatus/icon?job=AI4OS-hub/seeds-classification/main",
+        "build_status_url": "https://jenkins.services.ai4os.eu/job/AI4OS-hub/job/seeds-classification/job/main/"
     },
     "tosca": [
         {

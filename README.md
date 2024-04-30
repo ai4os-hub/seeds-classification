@@ -4,7 +4,7 @@
 
 # DEEP as a Service container for seeds classification
 
-[![Build Status](https://jenkins.indigo-datacloud.eu/buildStatus/icon?job=Pipeline-as-code/DEEP-OC-org/DEEP-OC-seeds-classification-tf/master)](https://jenkins.indigo-datacloud.eu/job/Pipeline-as-code/job/DEEP-OC-org/job/DEEP-OC-seeds-classification-tf/job/master)
+[![Build Status](https://jenkins.services.ai4os.eu/buildStatus/icon?job=AI4OS-hub/seeds-classification/main)](https://jenkins.services.ai4os.eu/job/AI4OS-hub/job/seeds-classification/job/main/)
 
 This is a container that will run the DEEP as a Service API component. From the DEEPaas API the user can choose the model
  to train or to predict, together with the basic input parameters.
@@ -17,7 +17,7 @@ To run the Docker container directly from Docker Hub and start using the API
 simply run the following command:
 
 ```bash
-$ docker run -ti -p 5000:5000 -p 6006:6006 -p 8888:8888 deephdc/deep-oc-seeds-classification-tf
+$ docker run -ti -p 5000:5000 -p 6006:6006 -p 8888:8888 ai4oshub/seeds-classification
 ```
 
 This command will pull the Docker container from the Docker Hub
@@ -33,26 +33,26 @@ Building the container:
 1. Get the `DEEP-OC-seeds-classification-tf` repository (this repo):
 
     ```bash
-    $ git clone https://github.com/deephdc/DEEP-OC-seeds-classification-tf
+    $ git clone https://github.com/ai4os-hub/seeds-classification
     ```
 
 2. Build the container:
 
     ```bash
     $ cd DEEP-OC-seeds-classification-tf
-    $ docker build -t deephdc/deep-oc-seeds-classification-tf .
+    $ docker build -t ai4oshub/seeds-classification .
     ```
 
 3. Run the container:
 
     ```bash
-    $ docker run -ti -p 5000:5000 -p 6006:6006 -p 8888:8888 deephdc/deep-oc-seeds-classification-tf
+    $ docker run -ti -p 5000:5000 -p 6006:6006 -p 8888:8888 ai4oshub/seeds-classification
     ```
    
    You can also run Jupyter Lab inside the container:
    
    ```bash
-   $ docker run -ti -p 5000:5000 -p 6006:6006 -p 8888:8888 deephdc/deep-oc-seeds-classification-tf /bin/bash
+   $ docker run -ti -p 5000:5000 -p 6006:6006 -p 8888:8888 ai4oshub/seeds-classification /bin/bash
    $root@47a6604ef008:/srv# jupyter lab --allow-root
    ```
 
