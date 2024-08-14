@@ -24,7 +24,6 @@ tags:
 tasks:
   - Computer Vision
 categories:
-  - AI4 trainable
   - AI4 pre trained
   - AI4 inference
 libraries:
