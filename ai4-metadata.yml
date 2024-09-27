@@ -14,7 +14,7 @@ dates:
   created: '2019-01-01'
   updated: '2024-08-12'
 links:
-  source_code: https://github.com/ai4os-hub/ai4os-image-classification-tf/
+  source_code: https://github.com/ai4os-hub/seeds-classification
   docker_image: ai4oshub/seeds-classification
   dataset: http://www.rjb.csic.es/jardinbotanico/jardin/
   training_data: null
