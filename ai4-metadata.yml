@@ -16,7 +16,7 @@ description: |-
   This service is based in the [Image Classification with Tensorflow](https://github.com/ai4os-hub/ai4os-image-classification-tf) model.
   
   **References**
-  [1]: Chollet, Francois. [Xception: Deep learning with depthwise separable convolutions](https://arxiv.org/abs/1610.02357) arXiv preprint (2017): 1610-02357.
+  1. Chollet, Francois. [Xception: Deep learning with depthwise separable convolutions](https://arxiv.org/abs/1610.02357) arXiv preprint (2017): 1610-02357.
 dates:
   created: '2019-01-01'
   updated: '2024-08-12'
