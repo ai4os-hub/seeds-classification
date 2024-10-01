@@ -26,6 +26,7 @@ links:
   dataset: http://www.rjb.csic.es/jardinbotanico/jardin/
   training_data: null
   citation: http://digital.csic.es/handle/10261/194549
+  base_model: https://github.com/ai4os-hub/ai4os-image-classification-tf
 tags:
   - deep learning
 tasks:
